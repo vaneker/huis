@@ -1,8 +1,8 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from 'remix'
 import type { MetaFunction } from 'remix'
 
-import tailwindStylesUrl from './styles/tailwind.css'
 import globalStylesUrl from './styles/global.css'
+import tailwindStylesUrl from './styles/tailwind.css'
 
 export const meta: MetaFunction = () => {
   return { title: 'New Remix App' }
