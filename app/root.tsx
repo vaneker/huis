@@ -5,7 +5,7 @@ import globalStylesUrl from './styles/global.css'
 import tailwindStylesUrl from './styles/tailwind.css'
 
 export const meta: MetaFunction = () => {
-  return { title: 'New Remix App' }
+  return { title: 'Huize Kroep' }
 }
 
 export default function App() {
