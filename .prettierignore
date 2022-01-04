@@ -3,4 +3,9 @@ node_modules
 /.cache
 /build
 /public/build
+/dist
 /app/styles/tailwind.css
+
+.DS_Store
+.env
+server.js

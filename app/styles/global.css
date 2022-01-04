@@ -1,0 +1,4 @@
+:focus,
+:focus:not(:focus-visible) {
+  outline: none;
+}
