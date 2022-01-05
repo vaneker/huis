@@ -49,7 +49,7 @@ const features = [
     imageUrl: 'images/keuken-1.jpg',
   },
   {
-    kamer: 'Badkamer met douche en toilet op begaande grond',
+    kamer: 'Badkamer met douche en toilet op begane grond',
     omschrijving: '',
     imageUrl: 'images/badkamer-beneden.jpg',
   },
@@ -60,22 +60,22 @@ const features = [
   },
   {
     kamer: 'Badkamer boven',
-    omschrijving: 'Heerlijk ontspannen na een dagje ontdekken',
+    omschrijving: 'Heerlijk ontspannen in bad na een dagje ontdekken',
     imageUrl: 'images/badkamer-boven-1.jpg',
   },
   {
     kamer: 'Badkamer boven',
-    omschrijving: 'Ruimte voor het hele gezelschap',
+    omschrijving: '',
     imageUrl: 'images/badkamer-boven-2.jpg',
   },
   {
     kamer: 'Trap met overloop',
-    omschrijving: 'Voorzien van comfortabele banken en stoelen',
+    omschrijving: '',
     imageUrl: 'images/trap-overloop.jpg',
   },
   {
     kamer: 'Overloop',
-    omschrijving: 'Heerlijk koken voor het hele gezelschap',
+    omschrijving: '',
     imageUrl: 'images/overloop.jpg',
   },
   {
@@ -102,6 +102,36 @@ const features = [
     kamer: 'Slaapkamer boven',
     omschrijving: '',
     imageUrl: 'images/slaapkamer-boven-4.jpg',
+  },
+  {
+    kamer: 'Buiten ontspannen',
+    omschrijving: '',
+    imageUrl: 'images/buiten-1.jpg',
+  },
+  {
+    kamer: 'Vuurkorf',
+    omschrijving: '',
+    imageUrl: 'images/vuurkorf.jpg',
+  },
+  {
+    kamer: 'Sfeer',
+    omschrijving: '',
+    imageUrl: 'images/buiten-2.jpg',
+  },
+  {
+    kamer: 'Buiten',
+    omschrijving: '',
+    imageUrl: 'images/buiten-3.jpg',
+  },
+  {
+    kamer: 'Volleybal',
+    omschrijving: '',
+    imageUrl: 'images/buiten-4.jpg',
+  },
+  {
+    kamer: 'Buiten voor',
+    omschrijving: '',
+    imageUrl: 'images/buiten-5.jpg',
   },
 ]
 
