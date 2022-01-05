@@ -42,8 +42,6 @@ function Header() {
               </h1>
               <p className='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
                 In het gezellige twentse dorpje De Lutte verhuren wij dit vrijstaande vakantiehuis.
-                Onderstaand vindt u de informatie, waaronder informatie over het huis, de omgeving
-                en over de huur.
               </p>
             </div>
           </main>
