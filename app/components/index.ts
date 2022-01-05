@@ -1,3 +1,5 @@
 export * from './Header'
 export * from './Features'
 export * from './Omgeving'
+export * from './CallToAction'
+export * from './Footer'

@@ -1,4 +1,4 @@
-import { Header, Features, Omgeving } from '../components'
+import { Header, Features, Omgeving, CallToAction, Footer } from '~/components'
 
 export default function HomePage() {
   return (
@@ -6,6 +6,8 @@ export default function HomePage() {
       <Header />
       <Features />
       <Omgeving />
+      <CallToAction />
+      <Footer />
     </main>
   )
 }

@@ -136,7 +136,7 @@ function Features() {
                   <div className='space-y-2'>
                     <div className='text-lg leading-6 font-medium space-y-1'>
                       <h3>{feature.kamer}</h3>
-                      <p className='text-emerald-600'>{feature.omschrijving}</p>
+                      <p className='text-green-600'>{feature.omschrijving}</p>
                     </div>
                   </div>
                 </div>
