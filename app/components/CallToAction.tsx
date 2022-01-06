@@ -82,10 +82,12 @@ function CallToAction() {
             </div>
             <div className='relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6'>
               <h2 className='text-3xl font-extrabold text-white' id='join-heading'>
-                Enthousiast?
+                Reserveren
               </h2>
+              <h3 className='text-xl text-white'>Geinteresseerd? Mail of bel naar ... .. .. .</h3>
               <p className='text-lg text-white'>
-                Reserveer dan via 06123456781 of via lucia@reserveren.nl
+                Uw verblijf is inclusief opgemaakte bedden, handdoeken en eindschoonmaak (zelf
+                bezemschoon opleveren). Uiteraard is er wifi waarvan u gratis gebruik kunt maken.
               </p>
             </div>
           </div>

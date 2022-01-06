@@ -1,136 +1,125 @@
 import { CheckIcon } from '@heroicons/react/outline'
 
-const featuress = [
+const beganeGrond = [
   {
-    name: 'Keuken',
+    name: 'Ruime keuken met televisie.',
   },
   {
-    name: 'Bijkeuken met vaatwasser en wasmachine',
+    name: 'Bijkeuken met vaatwasser, wasmachine en combi magnetron.',
   },
   {
-    name: 'Woonkamer',
+    name: 'Seperaat toilet.',
   },
   {
-    name: '4 tweepersoons slaapkamers',
+    name: 'Grote hal.',
   },
   {
-    name: 'Badkamer met douche en toilet beneden',
+    name: 'Badkamer met douche en toilet.',
   },
   {
-    name: 'Separaat toilet beneden',
+    name: '2-persoons slaapkamer.',
   },
   {
-    name: 'Hal met trap',
-  },
-  {
-    name: 'Badkamer met douchte, bad en toilet boven',
+    name: 'Ruime woonkamer met piano en gitaar.',
   },
 ]
 
-const features = [
+const eersteEtage = [
   {
-    kamer: 'Woonkamer',
-    omschrijving: 'Heerlijk ontspannen na een dagje ontdekken',
+    name: 'Drie 2-persoons slaapkamers, waarvan één met ruimte voor luchtbedden om met meer dan 8 personen te kunnen verblijven.',
+  },
+  {
+    name: 'Badkamer met ligbad, aparte douchhe en toilet.',
+  },
+]
+
+const tuin = [
+  {
+    name: 'Grote tuin rondom het huis.',
+  },
+  {
+    name: 'Vuurschaal en vuurkorf.',
+  },
+  {
+    name: 'Barbeque.',
+  },
+  {
+    name: "Voldoende ruimte om auto's bij de deur te kunnen parkeren.",
+  },
+  {
+    name: 'Afsluitbare schuur met ruimte om fietsen veilig te stallen en e-bikes op te laden.',
+  },
+]
+
+const fotosBeganeGrond = [
+  {
     imageUrl: 'images/woonkamer-1.jpg',
   },
   {
-    kamer: 'Woonkamer',
-    omschrijving: 'Ruimte voor het hele gezelschap',
     imageUrl: 'images/woonkamer-2.jpg',
   },
   {
-    kamer: 'Woonkamer',
-    omschrijving: 'Voorzien van comfortabele banken en stoelen',
     imageUrl: 'images/woonkamer-3.jpg',
   },
   {
-    kamer: 'Keuken',
-    omschrijving: 'Heerlijk koken voor het hele gezelschap',
     imageUrl: 'images/keuken-1.jpg',
   },
   {
-    kamer: 'Badkamer met douche en toilet op begane grond',
-    omschrijving: '',
     imageUrl: 'images/badkamer-beneden.jpg',
   },
   {
-    kamer: 'Hal',
-    omschrijving: '',
     imageUrl: 'images/hal.jpg',
   },
   {
-    kamer: 'Badkamer boven',
-    omschrijving: 'Heerlijk ontspannen in bad na een dagje ontdekken',
+    imageUrl: 'images/slaapkamer-beneden.jpg',
+  },
+]
+
+const fotosEersteEtage = [
+  {
     imageUrl: 'images/badkamer-boven-1.jpg',
   },
   {
-    kamer: 'Badkamer boven',
-    omschrijving: '',
     imageUrl: 'images/badkamer-boven-2.jpg',
   },
   {
-    kamer: 'Trap met overloop',
-    omschrijving: '',
     imageUrl: 'images/trap-overloop.jpg',
   },
   {
-    kamer: 'Overloop',
-    omschrijving: '',
     imageUrl: 'images/overloop.jpg',
   },
+
   {
-    kamer: 'Slaapkamer op begane grond',
-    omschrijving: '',
-    imageUrl: 'images/slaapkamer-beneden.jpg',
-  },
-  {
-    kamer: 'Slaapkamer boven',
-    omschrijving: '',
     imageUrl: 'images/slaapkamer-boven-1.jpg',
   },
   {
-    kamer: 'Slaapkamer boven',
-    omschrijving: '',
     imageUrl: 'images/slaapkamer-boven-2.jpg',
   },
   {
-    kamer: 'Slaapkamer boven',
-    omschrijving: '',
     imageUrl: 'images/slaapkamer-boven-3.jpg',
   },
   {
-    kamer: 'Slaapkamer boven',
-    omschrijving: '',
     imageUrl: 'images/slaapkamer-boven-4.jpg',
   },
+]
+
+const fotosTuin = [
   {
-    kamer: 'Buiten ontspannen',
-    omschrijving: '',
     imageUrl: 'images/buiten-1.jpg',
   },
   {
-    kamer: 'Vuurkorf',
-    omschrijving: '',
     imageUrl: 'images/vuurkorf.jpg',
   },
   {
-    kamer: 'Sfeer',
-    omschrijving: '',
     imageUrl: 'images/buiten-2.jpg',
   },
   {
-    kamer: 'Buiten',
-    omschrijving: '',
     imageUrl: 'images/buiten-3.jpg',
   },
   {
-    kamer: 'Volleybal',
-    omschrijving: '',
     imageUrl: 'images/buiten-4.jpg',
   },
   {
-    kamer: 'Buiten voor',
-    omschrijving: '',
     imageUrl: 'images/buiten-5.jpg',
   },
 ]
@@ -145,14 +134,28 @@ function Features() {
               Van alle gemakken voorzien
             </h2>
             <p className='text-xl text-gray-500'>
-              Ruimte, sfeer en voorzien van alle gemakken, Huize Kroep is ouderwets genieten.
+              Ruimte, sfeer en voorzien van alle gemakken. Huize kroep is ouderwets genieten met een
+              totale oppervlakte van 3000 m2.
             </p>
           </div>
+
+          <h3 className='text-2xl font-extrabold tracking-tight sm:text-3xl'>Begane grond</h3>
+          <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
+            {beganeGrond.map((feature) => (
+              <div key={feature.name} className='relative'>
+                <dt>
+                  <CheckIcon className='absolute h-6 w-6 text-green-500' aria-hidden='true' />
+                  <p className='ml-9 text-lg leading-6 font-medium text-gray-900'>{feature.name}</p>
+                </dt>
+              </div>
+            ))}
+          </dl>
+
           <ul
             role='list'
             className='space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8'
           >
-            {features.map((feature) => (
+            {fotosBeganeGrond.map((feature) => (
               <li key={feature.imageUrl}>
                 <div className='space-y-4'>
                   <div className='aspect-w-3 aspect-h-2'>
@@ -162,12 +165,67 @@ function Features() {
                       alt=''
                     />
                   </div>
+                </div>
+              </li>
+            ))}
+          </ul>
 
-                  <div className='space-y-2'>
-                    <div className='text-lg leading-6 font-medium space-y-1'>
-                      <h3>{feature.kamer}</h3>
-                      <p className='text-green-600'>{feature.omschrijving}</p>
-                    </div>
+          <h3 className='text-2xl font-extrabold tracking-tight sm:text-3xl'>Eerste etage</h3>
+          <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
+            {eersteEtage.map((feature) => (
+              <div key={feature.name} className='relative'>
+                <dt>
+                  <CheckIcon className='absolute h-6 w-6 text-green-500' aria-hidden='true' />
+                  <p className='ml-9 text-lg leading-6 font-medium text-gray-900'>{feature.name}</p>
+                </dt>
+              </div>
+            ))}
+          </dl>
+
+          <ul
+            role='list'
+            className='space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8'
+          >
+            {fotosEersteEtage.map((feature) => (
+              <li key={feature.imageUrl}>
+                <div className='space-y-4'>
+                  <div className='aspect-w-3 aspect-h-2'>
+                    <img
+                      className='object-cover shadow-lg rounded-lg'
+                      src={feature.imageUrl}
+                      alt=''
+                    />
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+
+          <h3 className='text-2xl font-extrabold tracking-tight sm:text-3xl'>Tuin</h3>
+          <dl className='mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8'>
+            {tuin.map((feature) => (
+              <div key={feature.name} className='relative'>
+                <dt>
+                  <CheckIcon className='absolute h-6 w-6 text-green-500' aria-hidden='true' />
+                  <p className='ml-9 text-lg leading-6 font-medium text-gray-900'>{feature.name}</p>
+                </dt>
+              </div>
+            ))}
+          </dl>
+
+          <ul
+            role='list'
+            className='space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-3 lg:gap-x-8'
+          >
+            {fotosTuin.map((feature) => (
+              <li key={feature.imageUrl}>
+                <div className='space-y-4'>
+                  <div className='aspect-w-3 aspect-h-2'>
+                    <img
+                      className='object-cover shadow-lg rounded-lg'
+                      src={feature.imageUrl}
+                      alt=''
+                    />
                   </div>
                 </div>
               </li>

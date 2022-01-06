@@ -24,9 +24,7 @@ function Header() {
             >
               <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
                 <div className='flex items-center justify-between w-full md:w-auto'>
-                  <h1 className='text-transparent whitespace-nowrap text-4xl font-bold bg-gradient-to-r bg-clip-text from-green-700 to-green-700'>
-                    Huize Kroep
-                  </h1>
+                  <h1 className='text-4xl font-extrabold text-green-600'>Huize Kroep</h1>
                 </div>
               </div>
             </nav>
