@@ -22,6 +22,7 @@ export const meta: MetaFunction = () => {
     'og:url': 'https://huize-kroep.nl',
     'og:site_name': 'Huize Kroep',
     'og:type': 'website',
+    'og:locale': 'nl_NL',
   }
 }
 
