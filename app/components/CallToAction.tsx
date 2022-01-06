@@ -10,7 +10,7 @@ function CallToAction() {
                 <img
                   className='object-cover object-center rounded-3xl shadow-2xl'
                   src='images/vuurkorf.jpg'
-                  alt=''
+                  alt='Vuurkorf'
                 />
               </div>
             </div>

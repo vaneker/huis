@@ -15,7 +15,7 @@ function Omgeving() {
         <img
           className='rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 mt-5'
           src='images/omgeving.jpg'
-          alt=''
+          alt='Lutterzand en de Dinkel bij zonsopkomst'
         />
       </div>
 
@@ -48,7 +48,11 @@ function Omgeving() {
                   <footer className='mt-3'>
                     <div className='flex items-center space-x-3'>
                       <div className='flex-shrink-0'>
-                        <img className='h-8 w-8 rounded-full' src='images/sonja.jpg' alt='' />
+                        <img
+                          className='h-8 w-8 rounded-full'
+                          src='images/sonja.jpg'
+                          alt='profiel foto van Sonja'
+                        />
                       </div>
                       <div className='text-base font-medium text-gray-700'>Sonja de Korte</div>
                     </div>
@@ -61,7 +65,7 @@ function Omgeving() {
                 <img
                   className='w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none'
                   src='images/watermolen.jpg'
-                  alt='Inbox user interface'
+                  alt='Het Singraven in Denekamp'
                 />
               </div>
             </div>
@@ -91,7 +95,7 @@ function Omgeving() {
                 <img
                   className='w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none'
                   src='images/schotse-hooglanders.jpg'
-                  alt='Customer profile user interface'
+                  alt='Schotse hooglanders'
                 />
               </div>
             </div>

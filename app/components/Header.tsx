@@ -45,7 +45,7 @@ function Header() {
         <img
           className='h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full'
           src='images/huis-index.jpg'
-          alt=''
+          alt='Bovenaanzicht van vakantiehuis Huize Kroep in het Twentse De Lutte'
         />
       </div>
     </header>

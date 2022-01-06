@@ -54,73 +54,94 @@ const tuin = [
 const fotosBeganeGrond = [
   {
     imageUrl: 'images/woonkamer-1.jpg',
+    alt: 'Woonkamer',
   },
   {
     imageUrl: 'images/woonkamer-2.jpg',
+    alt: 'Woonkamer',
   },
   {
     imageUrl: 'images/woonkamer-3.jpg',
+    alt: 'Woonkamer',
   },
   {
     imageUrl: 'images/keuken-1.jpg',
+    alt: 'Keuken',
   },
   {
     imageUrl: 'images/badkamer-beneden.jpg',
+    alt: 'Badkamer beneden',
   },
   {
     imageUrl: 'images/hal.jpg',
+    alt: 'Hal',
   },
   {
     imageUrl: 'images/slaapkamer-beneden.jpg',
+    alt: 'Slaapkamer beneden',
   },
 ]
 
 const fotosEersteEtage = [
   {
     imageUrl: 'images/badkamer-boven-1.jpg',
+    alt: 'Badkamer boven',
   },
   {
     imageUrl: 'images/badkamer-boven-2.jpg',
+    alt: 'Badkamer boven',
   },
   {
     imageUrl: 'images/trap-overloop.jpg',
+    alt: 'Trap overloop',
   },
   {
     imageUrl: 'images/overloop.jpg',
+    alt: 'Overloop',
   },
 
   {
     imageUrl: 'images/slaapkamer-boven-1.jpg',
+    alt: 'Slaapkamer boven',
   },
   {
     imageUrl: 'images/slaapkamer-boven-2.jpg',
+    alt: 'Slaapkamer boven',
   },
   {
     imageUrl: 'images/slaapkamer-boven-3.jpg',
+    alt: 'Slaapkamer boven',
   },
   {
     imageUrl: 'images/slaapkamer-boven-4.jpg',
+    alt: 'Slaapkamer boven',
   },
 ]
 
 const fotosTuin = [
   {
     imageUrl: 'images/buiten-1.jpg',
+    alt: 'Buiten',
   },
   {
     imageUrl: 'images/vuurkorf.jpg',
+    alt: 'Vuurkorf',
   },
   {
     imageUrl: 'images/buiten-2.jpg',
+    alt: 'Buiten',
   },
   {
     imageUrl: 'images/buiten-3.jpg',
+    alt: 'Buiten',
   },
   {
     imageUrl: 'images/buiten-4.jpg',
+    alt: 'Buiten',
   },
   {
     imageUrl: 'images/buiten-5.jpg',
+    alt: 'Buiten',
   },
 ]
 
@@ -162,7 +183,7 @@ function Features() {
                     <img
                       className='object-cover shadow-lg rounded-lg'
                       src={feature.imageUrl}
-                      alt=''
+                      alt={feature.alt}
                     />
                   </div>
                 </div>
@@ -193,7 +214,7 @@ function Features() {
                     <img
                       className='object-cover shadow-lg rounded-lg'
                       src={feature.imageUrl}
-                      alt=''
+                      alt={feature.alt}
                     />
                   </div>
                 </div>
@@ -224,7 +245,7 @@ function Features() {
                     <img
                       className='object-cover shadow-lg rounded-lg'
                       src={feature.imageUrl}
-                      alt=''
+                      alt={feature.alt}
                     />
                   </div>
                 </div>
