@@ -1,7 +1,3 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
-
 function Header() {
   return (
     <header className='relative bg-white overflow-hidden'>

@@ -29,7 +29,7 @@ const eersteEtage = [
     name: 'Drie 2-persoons slaapkamers, waarvan één met ruimte voor luchtbedden om met meer dan 8 personen te kunnen verblijven.',
   },
   {
-    name: 'Badkamer met ligbad, aparte douchhe en toilet.',
+    name: 'Badkamer met ligbad, aparte douche en toilet.',
   },
 ]
 
@@ -135,7 +135,7 @@ function Features() {
             </h2>
             <p className='text-xl text-gray-500'>
               Ruimte, sfeer en voorzien van alle gemakken. Huize kroep is ouderwets genieten met een
-              totale oppervlakte van 3000 m2.
+              totale oppervlakte van 3000 m2 en ruimte voor 8 personen.
             </p>
           </div>
 
