@@ -20,7 +20,7 @@ const beganeGrond = [
     name: '2-persoons slaapkamer.',
   },
   {
-    name: 'Ruime woonkamer met piano en gitaar.',
+    name: 'Ruime woonkamer met piano, gitaar en spelletjeskast.',
   },
 ]
 
