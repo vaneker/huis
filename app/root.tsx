@@ -10,12 +10,18 @@ export const meta: MetaFunction = () => {
     description,
     title: 'Huize Kroep',
     keywords: 'Huize Kroep,De Lutte,vakantiehuis',
-    'twitter:image': 'images/huis-index.jpg',
+    'twitter:image': 'https://huize-kroep.nl/images/huis-index.jpg',
     'twitter:card': 'summary_large_image',
-    'twitter:creator': '@remix_run',
-    'twitter:site': 'huize-kroep.nl',
+    'twitter:creator': 'Huize Kroep',
+    'twitter:site': 'https://huize-kroep.nl',
     'twitter:title': 'Huize Kroep',
     'twitter:description': description,
+    'og:title': 'Huize Kroep',
+    'og:description': description,
+    'og:image': 'https://huize-kroep.nl/images/huis-index.jpg',
+    'og:url': 'https://huize-kroep.nl',
+    'og:site_name': 'Huize Kroep',
+    'og:type': 'website',
   }
 }
 
