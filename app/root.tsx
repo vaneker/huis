@@ -5,7 +5,18 @@ import globalStylesUrl from './styles/global.css'
 import tailwindStylesUrl from './styles/tailwind.css'
 
 export const meta: MetaFunction = () => {
-  return { title: 'Huize Kroep' }
+  const description = `Welkom, wij hopen u snel te mogen ontvangen in Huize Kroep in De Lutte!`
+  return {
+    description,
+    title: 'Huize Kroep',
+    keywords: 'Huize Kroep,De Lutte,vakantiehuis',
+    'twitter:image': 'images/huis-index.jpg',
+    'twitter:card': 'summary_large_image',
+    'twitter:creator': '@remix_run',
+    'twitter:site': 'huize-kroep.nl',
+    'twitter:title': 'Huize Kroep',
+    'twitter:description': description,
+  }
 }
 
 export default function App() {
@@ -17,7 +28,6 @@ export default function App() {
         <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
         <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
         <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
-        <link rel='manifest' href='/site.webmanifest' />
         <Meta />
         <link rel='stylesheet' href={tailwindStylesUrl} />
         <link rel='stylesheet' href={globalStylesUrl} />

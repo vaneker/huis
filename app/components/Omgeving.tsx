@@ -48,11 +48,7 @@ function Omgeving() {
                   <footer className='mt-3'>
                     <div className='flex items-center space-x-3'>
                       <div className='flex-shrink-0'>
-                        <img
-                          className='h-6 w-6 rounded-full'
-                          src='https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80'
-                          alt=''
-                        />
+                        <img className='h-8 w-8 rounded-full' src='images/sonja.jpg' alt='' />
                       </div>
                       <div className='text-base font-medium text-gray-700'>Sonja de Korte</div>
                     </div>

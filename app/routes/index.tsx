@@ -1,4 +1,4 @@
-import { Header, Features, Omgeving, CallToAction, Footer } from '~/components'
+import { Header, Features, Omgeving, CallToAction, Footer, Prijs } from '~/components'
 
 export default function HomePage() {
   return (
@@ -6,6 +6,7 @@ export default function HomePage() {
       <Header />
       <Features />
       <Omgeving />
+      {/* <Prijs /> */}
       <CallToAction />
       <Footer />
     </main>
