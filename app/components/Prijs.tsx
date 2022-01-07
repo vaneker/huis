@@ -4,19 +4,19 @@ const pricing = {
   tiers: [
     {
       title: 'Midweek',
-      price: 750,
-      nights: 5,
+      price: 752,
+      nights: 4,
       description: 'Van maandag tot vrijdag genieten.',
       mostPopular: false,
-      features: ['5 nachten verblijf'],
+      features: ['4 nachten verblijf'],
     },
     {
       title: 'Hele week',
-      price: 900,
-      nights: 7,
+      price: 936,
+      nights: 6,
       description: 'Een volle week genieten voor de volledige ervaring.',
       mostPopular: true,
-      features: ['7 nachten verblijf'],
+      features: ['6 nachten verblijf'],
     },
     {
       title: 'Weekend',
@@ -57,11 +57,9 @@ function Prijs() {
               <p className='mt-4 flex items-baseline text-gray-900'>
                 <span className='text-5xl font-extrabold tracking-tight'>€{tier.price}</span>
                 <p className='text-2xl font-semibold tracking-tight mt-1'>
-                  €{(tier.price / 8 / tier.nights).toFixed(2)} p/p nacht
+                  €{(tier.price / 8 / tier.nights).toFixed(2).replace('.', ',')} p/p nacht
                 </p>
-                <p className='text-xl font-medium tracking-tight mt-1'>
-                  (op basis van 8 personen)
-                </p>
+                <p className='text-xl font-medium tracking-tight mt-1'>(op basis van 8 personen)</p>
               </p>
               <p className='mt-6 text-gray-500'>{tier.description}</p>
 

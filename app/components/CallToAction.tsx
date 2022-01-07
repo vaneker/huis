@@ -1,3 +1,6 @@
+const emailString =
+  'Hallo, %0D%0AWij zouden graag vanaf [[Datum in dag-maand-jaar]] een [[week/midweek/weekend]] reserveren.%0D%0AWij koment met [[aantal personen]] personen.%0D%0A[[Uw contactgegevens]]%0D%0AOverige vragen:'
+
 function CallToAction() {
   return (
     <div className='relative py-16 bg-white'>
@@ -84,7 +87,13 @@ function CallToAction() {
               <h2 className='text-3xl font-extrabold text-white' id='join-heading'>
                 Reserveren
               </h2>
-              <h3 className='text-xl text-white'>Geinteresseerd? Mail of bel naar ... .. .. .</h3>
+              <h3 className='text-xl text-white'>
+                <a
+                  href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${emailString}`}
+                >
+                  Geinteresseerd? Mail ons dan naar huizekroep@gmail.com
+                </a>
+              </h3>
               <p className='text-lg text-white'>
                 Uw verblijf is inclusief opgemaakte bedden, handdoeken en eindschoonmaak (zelf
                 bezemschoon opleveren). Uiteraard is er wifi waarvan u gratis gebruik kunt maken.

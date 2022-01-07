@@ -6,7 +6,7 @@ export default function HomePage() {
       <Header />
       <Features />
       <Omgeving />
-      {/* <Prijs /> */}
+      <Prijs />
       <CallToAction />
       <Footer />
     </main>
