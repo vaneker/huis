@@ -124,7 +124,7 @@ function Prijs() {
                       <div className='mt-8'>
                         <div className='rounded-lg shadow-md'>
                           <a
-                            href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${pricing.midweek.email}`}
+                            href={`mailto:mail@huize-kroep.nl?subject=Aanvraag reservering&body=${pricing.midweek.email}`}
                             className='block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-green-700 hover:bg-gray-50'
                             aria-describedby='midweek-cta'
                           >
@@ -196,7 +196,7 @@ function Prijs() {
                     <div className='mt-10'>
                       <div className='rounded-lg shadow-md'>
                         <a
-                          href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${pricing.week.email}`}
+                          href={`mailto:mail@huize-kroep.nl?subject=Aanvraag reservering&body=${pricing.week.email}`}
                           className='block w-full text-center rounded-lg border border-transparent bg-green-700 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-green-700'
                           aria-describedby='week-cta'
                         >
@@ -246,7 +246,7 @@ function Prijs() {
                       <div className='mt-8'>
                         <div className='rounded-lg shadow-md'>
                           <a
-                            href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${pricing.weekend.email}`}
+                            href={`mailto:mail@huize-kroep.nl?subject=Aanvraag reservering&body=${pricing.weekend.email}`}
                             className='block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-green-700 hover:bg-gray-50'
                             aria-describedby='weekend-cta'
                           >

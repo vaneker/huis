@@ -89,9 +89,9 @@ function CallToAction() {
               </h2>
               <h3 className='text-xl text-white'>
                 <a
-                  href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${emailString}`}
+                  href={`mailto:mail@huize-kroep.nl?subject=Aanvraag reservering&body=${emailString}`}
                 >
-                  Mail dan naar huizekroep@gmail.com
+                  Mail dan naar mail@huize-kroep.nl
                 </a>
               </h3>
             </div>
