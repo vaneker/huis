@@ -4,7 +4,7 @@ const emailString =
 function CallToAction() {
   return (
     <div className='relative py-16 bg-white'>
-      <div className='max-w-7xl mx-auto bg-green-600 lg:bg-transparent lg:px-8'>
+      <div className='max-w-7xl mx-auto bg-green-700 lg:bg-transparent lg:px-8'>
         <div className='lg:grid lg:grid-cols-12'>
           <div className='relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent'>
             <div className='absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden' aria-hidden='true' />
@@ -19,7 +19,7 @@ function CallToAction() {
             </div>
           </div>
 
-          <div className='relative bg-green-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center'>
+          <div className='relative bg-green-700 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center'>
             <div
               className='hidden absolute inset-0 overflow-hidden rounded-3xl lg:block'
               aria-hidden='true'
@@ -46,7 +46,7 @@ function CallToAction() {
                       y={0}
                       width={4}
                       height={4}
-                      className='text-green-500'
+                      className='text-green-900'
                       fill='currentColor'
                     />
                   </pattern>
@@ -75,7 +75,7 @@ function CallToAction() {
                       y={0}
                       width={4}
                       height={4}
-                      className='text-green-500'
+                      className='text-green-900'
                       fill='currentColor'
                     />
                   </pattern>

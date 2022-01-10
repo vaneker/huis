@@ -90,10 +90,7 @@ function Prijs() {
                   <div className='flex-1 flex flex-col'>
                     <div className='bg-white px-6 py-10'>
                       <div>
-                        <h3
-                          className='text-center text-2xl font-medium text-gray-900'
-                          id='tier-hobby'
-                        >
+                        <h3 className='text-center text-2xl font-medium text-gray-900' id='midweek'>
                           {pricing.midweek.title}
                         </h3>
                         <div className='mt-4 flex items-center justify-center'>
@@ -104,7 +101,7 @@ function Prijs() {
                         </div>
                         <p
                           className='text-center text-xl font-medium text-gray-900'
-                          id='tier-hobby'
+                          id='midweek-laagseizoen'
                         >
                           Hoogseizoen niet beschikbaar
                         </p>
@@ -128,8 +125,8 @@ function Prijs() {
                         <div className='rounded-lg shadow-md'>
                           <a
                             href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${pricing.midweek.email}`}
-                            className='block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-green-600 hover:bg-gray-50'
-                            aria-describedby='tier-hobby'
+                            className='block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-green-700 hover:bg-gray-50'
+                            aria-describedby='midweek-cta'
                           >
                             {pricing.midweek.cta}
                           </a>
@@ -142,12 +139,12 @@ function Prijs() {
               <div className='mt-10 max-w-lg mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-start-3 lg:col-end-6 lg:row-start-1 lg:row-end-4'>
                 <div className='relative z-10 rounded-lg shadow-xl'>
                   <div
-                    className='pointer-events-none absolute inset-0 rounded-lg border-2 border-green-600'
+                    className='pointer-events-none absolute inset-0 rounded-lg border-2 border-green-700'
                     aria-hidden='true'
                   />
                   <div className='absolute inset-x-0 top-0 transform translate-y-px'>
                     <div className='flex justify-center transform -translate-y-1/2'>
-                      <span className='inline-flex rounded-full bg-green-600 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white'>
+                      <span className='inline-flex rounded-full bg-green-700 px-4 py-1 text-sm font-semibold tracking-wider uppercase text-white'>
                         Het hele jaar door beschikbaar
                       </span>
                     </div>
@@ -156,7 +153,7 @@ function Prijs() {
                     <div>
                       <h3
                         className='text-center text-3xl font-semibold text-gray-900 sm:-mx-6'
-                        id='tier-growth'
+                        id='week-laagseizoen'
                       >
                         {pricing.week.title}
                       </h3>
@@ -170,7 +167,7 @@ function Prijs() {
                     <div>
                       <h4
                         className='text-center text-2xl font-semibold text-gray-900 sm:-mx-6 mt-4'
-                        id='tier-growth'
+                        id='week-hoogseizoen'
                       >
                         Tijdens het hoogseizoen
                       </h4>
@@ -200,8 +197,8 @@ function Prijs() {
                       <div className='rounded-lg shadow-md'>
                         <a
                           href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${pricing.week.email}`}
-                          className='block w-full text-center rounded-lg border border-transparent bg-green-600 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-green-700'
-                          aria-describedby='tier-growth'
+                          className='block w-full text-center rounded-lg border border-transparent bg-green-700 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-green-700'
+                          aria-describedby='week-cta'
                         >
                           {pricing.week.cta}
                         </a>
@@ -215,10 +212,7 @@ function Prijs() {
                   <div className='flex-1 flex flex-col'>
                     <div className='bg-white px-6 py-10'>
                       <div>
-                        <h3
-                          className='text-center text-2xl font-medium text-gray-900'
-                          id='tier-scale'
-                        >
+                        <h3 className='text-center text-2xl font-medium text-gray-900' id='weekend'>
                           {pricing.weekend.title}
                         </h3>
                         <div className='mt-4 flex items-center justify-center'>
@@ -229,7 +223,7 @@ function Prijs() {
                         </div>
                         <p
                           className='text-center text-xl font-medium text-gray-900'
-                          id='tier-hobby'
+                          id='weekend-laagseizoen'
                         >
                           Hoogseizoen niet beschikbaar
                         </p>
@@ -253,8 +247,8 @@ function Prijs() {
                         <div className='rounded-lg shadow-md'>
                           <a
                             href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${pricing.weekend.email}`}
-                            className='block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-green-600 hover:bg-gray-50'
-                            aria-describedby='tier-scale'
+                            className='block w-full text-center rounded-lg border border-transparent bg-white px-6 py-3 text-base font-medium text-green-700 hover:bg-gray-50'
+                            aria-describedby='weekend-cta'
                           >
                             {pricing.weekend.cta}
                           </a>

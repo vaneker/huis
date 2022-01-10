@@ -20,7 +20,7 @@ function Header() {
             >
               <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
                 <div className='flex items-center justify-between w-full md:w-auto'>
-                  <h1 className='text-4xl font-extrabold text-green-600'>Huize Kroep</h1>
+                  <h1 className='text-4xl font-extrabold text-green-700'>Huize Kroep</h1>
                 </div>
               </div>
             </nav>
@@ -32,7 +32,7 @@ function Header() {
                 <span className='block xl:inline'>
                   Welkom, wij hopen u snel te mogen ontvangen in
                 </span>{' '}
-                <span className='block text-green-600 xl:inline'>Huize Kroep</span>
+                <span className='block text-green-700 xl:inline'>Huize Kroep</span>
               </h1>
               <h2 className='mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'>
                 In het gezellige twentse dorpje De Lutte verhuren wij dit vrijstaande vakantiehuis.
