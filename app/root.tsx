@@ -5,7 +5,7 @@ import globalStylesUrl from './styles/global.css'
 import tailwindStylesUrl from './styles/tailwind.css'
 
 export const meta: MetaFunction = () => {
-  const description = `Welkom bij vakantiehuis Huize Kroep in De Lutte!`
+  const description = `Vakantiehuis Huize Kroep | Boek uw verblijf nu | Bekijk nu onze accommodatie | Ruimte, sfeer en voorzien van alle gemakken. Huize kroep is ouderwets genieten in De Lutte | Huize Kroep biedt een fijne uitvalsbasis om Twente te verkennen`
   return {
     description,
     title: 'Huize Kroep',
