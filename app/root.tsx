@@ -9,7 +9,8 @@ export const meta: MetaFunction = () => {
   return {
     description,
     title: 'Huize Kroep',
-    keywords: 'Huize Kroep,De Lutte,vakantiehuis',
+    keywords:
+      'gastenverblijf,vakantiewoning twente,gastenverblijf voor groepen,familie overnachting,familie vakantiehuizen,vakantiewoning de lutte,huisje,vakantie huis',
     'twitter:image': 'https://huize-kroep.nl/images/thumbnail.jpg',
     'twitter:card': 'summary_large_image',
     'twitter:creator': 'Huize Kroep',
