@@ -1,5 +1,5 @@
 const emailString =
-  'Hallo, %0D%0AWij zouden graag vanaf [[Datum in dag-maand-jaar]] een [[week/midweek/weekend]] reserveren.%0D%0AWij koment met [[aantal personen]] personen.%0D%0A[[Uw contactgegevens]]%0D%0AOverige vragen:'
+  'Hallo, %0D%0AWij zouden graag vanaf [[Datum in dag-maand-jaar]] een [[week/midweek/weekend]] reserveren.%0D%0AWij komen met [[aantal personen]] personen.%0D%0A[[Uw contactgegevens]]%0D%0AOverige vragen:'
 
 function CallToAction() {
   return (
@@ -85,19 +85,15 @@ function CallToAction() {
             </div>
             <div className='relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6'>
               <h2 className='text-3xl font-extrabold text-white' id='join-heading'>
-                Reserveren
+                Geinteresseerd of vragen?
               </h2>
               <h3 className='text-xl text-white'>
                 <a
                   href={`mailto:huizekroep@gmail.com?subject=Aanvraag reservering&body=${emailString}`}
                 >
-                  Geinteresseerd? Mail ons dan naar huizekroep@gmail.com
+                  Mail dan naar huizekroep@gmail.com
                 </a>
               </h3>
-              <p className='text-lg text-white'>
-                Uw verblijf is inclusief opgemaakte bedden, handdoeken en eindschoonmaak (zelf
-                bezemschoon opleveren). Uiteraard is er wifi waarvan u gratis gebruik kunt maken.
-              </p>
             </div>
           </div>
         </div>
