@@ -62,7 +62,7 @@ function Prijs() {
           <ul role='list' className='space-y-4'>
             <li className='flex items-start'>
               <div className='flex-shrink-0'>-</div>
-              <p className='ml-3 text-base font-medium text-gray-500'>Juli tot en met augustus</p>
+              <p className='ml-3 text-base font-medium text-gray-500'>Juli en augustus</p>
             </li>
             <li className='flex items-start'>
               <div className='flex-shrink-0'>-</div>
